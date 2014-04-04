@@ -1,3 +1,8 @@
+## 2.4.0-pre.3
+
+moon.Panels: Add brandingSrc property to display a brand image in the lower left corner of activity
+panels that are not joined to the previous panel.
+
 ## 2.4.0-pre.1
 
 moon.Header: Facade dismissOnEnter to input

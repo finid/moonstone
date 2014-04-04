@@ -751,7 +751,7 @@ enyo.kind({
 	},
 	brandingSrcChanged: function() {
 		if (this.pattern === "activity") {
-			this.$.scrim.applyStyle("background-image", (this.brandingSrc && this.index > 0) ? "url(" + this.brandingSrc + ")" : "none");
+			this.$.scrim.applyStyle("background-image", (this.brandingSrc && this.index > 0 && (!this.getActive().joinToPrev || this.index > 1)) ? "url(" + this.brandingSrc + ")" : "none");
 		}
 	}
 });
